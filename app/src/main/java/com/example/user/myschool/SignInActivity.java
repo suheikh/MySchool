@@ -52,7 +52,10 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
 
 
             }
-
+        }
+        else{
+            Intent i = new Intent(SignInActivity.this,SignUpActivity.class);
+            startActivity(i);
         }
     }
     public void signIn(String email,String password){
