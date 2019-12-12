@@ -7,77 +7,189 @@
     android:orientation="vertical"
     tools:context=".SignUpActivity">
 
-    <TextView
-        android:id="@+id/textView10"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="20dp"
-        android:gravity="center"
-        android:text="Sign Up Page" />
+        android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/textViewFullName"
-            android:layout_width="219dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Full Name:" />
-
-        <EditText
-            android:id="@+id/editTextFullName"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="textPersonName" />
-    </LinearLayout>
+            android:gravity="center"
+            android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/textViewGrade"
-            android:layout_width="219dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Grade:" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="Sign Up Page" />
 
-        <Spinner
-            android:id="@+id/spinnerGrade"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
 
-    </LinearLayout>
+                <TextView
+                    android:id="@+id/textViewFullName"
+                    android:layout_width="219dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Full Name:" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="10dp"
-        android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/editTextFullName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Full Name"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
 
-        <TextView
-            android:id="@+id/textViewMajor"
-            android:layout_width="219dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Major:" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
 
-        <Spinner
-            android:id="@+id/spinnerGrade"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
+                <TextView
+                    android:id="@+id/textViewEmail"
+                    android:layout_width="219dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Email:" />
 
-    </LinearLayout>
+                <EditText
+                    android:id="@+id/editTextEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Email"
+                    android:inputType="textPersonName" />
+            </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewPassword"
+                    android:layout_width="219dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Password:" />
+
+                <EditText
+                    android:id="@+id/editTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewClass"
+                    android:layout_width="219dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Class:" />
+
+                <Spinner
+                    android:id="@+id/spinnerClass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewFMajor"
+                    android:layout_width="219dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1st Major:" />
+
+                <Spinner
+                    android:id="@+id/spinnerFMajor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewSMajor"
+                    android:layout_width="219dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2nd Major:" />
+
+                <Spinner
+                    android:id="@+id/spinnerSMajor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewID"
+                    android:layout_width="219dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ID:" />
+
+                <EditText
+                    android:id="@+id/editTextID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="ID"
+                    android:inputType="textPersonName" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonConfirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confirm" />
+
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

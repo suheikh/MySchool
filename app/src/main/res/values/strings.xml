@@ -2,31 +2,39 @@
 
 <resources>
     <string name="app_name">MySchool</string>
-        <string-array name="grade_array">
-            <item>Grade</item>
-            <item>9th "a"</item>
-            <item>9th "b"</item>
-            <item>9th "c"</item>
-            <item>9th "d"</item>
-            <item>10th "a"</item>
-            <item>10th "b"</item>
-            <item>10th "c"</item>
-            <item>10th "d"</item>
-            <item>11th "a"</item>
-            <item>11th "b"</item>
-            <item>11th "c"</item>
-            <item>11th "d"</item>
-            <item>12th "a"</item>
-            <item>12th "b"</item>
-            <item>12th "c"</item>
-            <item>12th "d"</item>
-        </string-array>
-    <string-array name="major_array">
+    <string-array name="class_array">
+        <item>Class</item>
+        <item>9th "a"</item>
+        <item>9th "b"</item>
+        <item>9th "c"</item>
+        <item>9th "d"</item>
+        <item>10th "a"</item>
+        <item>10th "b"</item>
+        <item>10th "c"</item>
+        <item>10th "d"</item>
+        <item>11th "a"</item>
+        <item>11th "b"</item>
+        <item>11th "c"</item>
+        <item>11th "d"</item>
+        <item>12th "a"</item>
+        <item>12th "b"</item>
+        <item>12th "c"</item>
+        <item>12th "d"</item>
+    </string-array>
+    <string-array name="Fmajor_array">
         <item>Major</item>
         <item>Biology</item>
         <item>Chemistry</item>
         <item>Physics</item>
 
 
+    </string-array>
+
+    <string-array name="Smajor_array">
+        <item>Major</item>
+        <item>BioTech</item>
+        <item>Media</item>
+        <item>Electronics</item>
+        <item>Computer Science</item>
     </string-array>
 </resources>
