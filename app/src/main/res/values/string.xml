@@ -26,15 +26,28 @@
         <item>Biology</item>
         <item>Chemistry</item>
         <item>Physics</item>
-
-
     </string-array>
-
     <string-array name="Smajor_array">
         <item>Major</item>
         <item>BioTech</item>
         <item>Media</item>
         <item>Electronics</item>
         <item>Computer Science</item>
+    </string-array>
+
+    <string-array name="HWSubjectsArr">
+        <item>Subject</item>
+        <item>Biology</item>
+        <item>Chemistry</item>
+        <item>Physics</item>
+        <item>BioTech</item>
+        <item>Media</item>
+        <item>Electronics</item>
+        <item>Computer Science</item>
+        <item>Hebrew</item>
+        <item>English</item>
+        <item>Arabic</item>
+        <item>History</item>
+        <item>Civilians</item>
     </string-array>
 </resources>

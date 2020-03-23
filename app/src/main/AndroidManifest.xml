@@ -20,10 +20,10 @@
         <activity android:name=".SignUpActivity" />
         <activity android:name=".HomeworkActivity" />
         <activity android:name=".GroupchatActivity" />
-        <activity android:name=".Main2Activity" />
         <activity android:name=".ExamsActivity" />
         <activity android:name=".NotesActivity" />
-        <activity android:name=".AddfriendsActivity"></activity>
+        <activity android:name=".AddfriendsActivity" />
+        <activity android:name=".AddPage"></activity>
     </application>
 
 </manifest>
